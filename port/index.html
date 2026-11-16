@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -33,7 +32,7 @@
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> OPEN TO OPPORTUNITIES <span class="eyebrow-divider">/</span> CORDOVA, CEBU</p>
         <h1 id="hero-title">HI, I’M<br><span class="gradient-text">ERICK TECSON</span></h1>
-        <p class="hero-name"></p><span>Aspiring Web Developer <i aria-hidden="true">·</i> BSIT Student</span></p>
+        <p class="hero-name"><span>Aspiring Web Developer <i aria-hidden="true">·</i> BSIT Student</span></p>
         <p class="hero-intro">I enjoy turning ideas into clear, useful digital experiences. I’m learning every day, building with care, and looking for opportunities to grow as a developer.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
@@ -52,7 +51,6 @@
           <img src="images/profile.jpg" alt="Portrait of Erick Tecson" width="560" height="700" fetchpriority="high">
           <div class="portrait-caption"><span class="caption-mark" aria-hidden="true">✳</span><span>LEARNING<br>BY MAKING</span></div>
         </div>
-        <div class="code-chip"><span aria-hidden="true">&lt;/&gt;</span> always in progress</div>
       </div>
     </section>
 
@@ -229,20 +227,19 @@
 
         <form class="contact-form" action="mailto:ericktecson2021@gmail.com" method="post" enctype="text/plain">
           <p class="form-heading">Send a message<span aria-hidden="true">.</span></p>
-          <p class="form-note">Your email app will open with your message ready to send.</p>
           <div class="form-row">
             <div class="form-field">
               <label for="name">Your name</label>
-              <input id="name" name="name" type="text" autocomplete="name" placeholder="Jane Smith" required>
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="Enter Your Name" required>
             </div>
             <div class="form-field">
               <label for="email">Email address</label>
-              <input id="email" name="email" type="email" autocomplete="email" placeholder="jane@example.com" required>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="Enter Your Email" required>
             </div>
           </div>
           <div class="form-field">
             <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" placeholder="Tell me a little about it..." required></textarea>
+            <textarea id="message" name="message" rows="4" placeholder="Enter Your Message" required></textarea>
           </div>
           <button class="button button-primary form-submit" type="submit">Submit <span aria-hidden="true">↗</span></button>
         </form>
